@@ -280,10 +280,10 @@ footer p {
         justify-content: space-between;
     }
 }
-/*@media (min-width: 1200px){
+@media (min-width: 1200px){
 
     header nav {
-      font-size: 22px;
+      font-size: 18px;
       padding-left: 40px;
       padding-right: 20px;
     }
@@ -303,7 +303,7 @@ footer p {
     }
     .top-header p{
         width: 33%;
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .burger-menu i{
@@ -313,13 +313,13 @@ footer p {
         width: 22%;
     }
     footer i{
-        font-size: 3em;
+        font-size: 2em;
     }
     footer h4{
-        font-size:24px;
+        font-size:22px;
     }
     footer p{
         font-size: 18px;
     }
 
-} */
+} 
