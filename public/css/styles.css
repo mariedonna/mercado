@@ -10,7 +10,7 @@ body{
 }
 
 h3{
-    font-size: 24px;
+    font-size: 22px;
 }
 
 p{
@@ -27,7 +27,7 @@ header{
     padding: 5%;
 }
 
-header .logo-ml{ /*div padre y div hijo va con espacio*/
+header .logo-ml{ 
     width: 50%;
     padding: 10px;
 }
@@ -37,7 +37,7 @@ header .header-form{
     display: flex;
     align-items: center;
     padding: 2px;
-/* font-size: 12px; puedo sacarlo porq esta en el body*/
+
 }
 .top-header p{
     width: 100%;
@@ -92,11 +92,11 @@ div.burger-menu i{
 }
 main.login-user{
     width: 100%;
-    padding-top:2%;
+    padding-top:20%;
 
 }
 main form.login{
-    width: 45%;
+    width: 50%;
     display:flex;
     flex-wrap:wrap;
     flex-direction:column;
@@ -105,13 +105,13 @@ main form.login{
     background-color: white ;
     border-radius: 3px;
     padding: 10px;
-    margin-left:27%;
-    margin-right:27%;
-    margin-top:2%;
+    margin-left:25%;
+ 
+    margin-top:10%;
     
 }
 main form.login p{
-    padding-top: 10px;
+    padding-top: 20px;
 
 }
 main form.login button{
@@ -248,12 +248,22 @@ footer p {
     header nav{
         display:none;
     }
+    main form.login {
+        width: 50%;
+        padding: 10px;
+    }
+
     main section div.products{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
+    }
+    main form.login button {
+        width: 30%;
+        margin:20px;
+        color: #666;
     }
     
     main section div.products article{
@@ -281,7 +291,7 @@ footer p {
     }
 
     input.bar{
-        width:350px;
+        width:340px;
         height: 30px;
         font-size: 18px;
         padding-right: 4px;
@@ -295,7 +305,7 @@ footer p {
     .fa-solid, .fas {
         width:30px;
         height: 30px;
- 
+     
     }
 
 
@@ -312,6 +322,16 @@ footer p {
         flex-direction:row;
         justify-content: space-between;
     }
+    footer i{
+        font-size: 2em;
+    }
+    footer h4{
+        font-size:22px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+
 }
 @media (min-width: 1200px){
 
@@ -349,10 +369,10 @@ footer p {
         font-size: 2em;
     }
     footer h4{
-        font-size:22px;
+        font-size:20px;
     }
     footer p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
 } 
