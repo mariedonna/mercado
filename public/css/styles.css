@@ -90,6 +90,39 @@ div.burger-menu i{
     padding: 10px;
     width: 40px;
 }
+main.login-user{
+    width: 100%;
+    padding-top:2%;
+
+}
+main form.login{
+    width: 45%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white ;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left:27%;
+    margin-right:27%;
+    margin-top:2%;
+    
+}
+main form.login p{
+    padding-top: 10px;
+
+}
+main form.login button{
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 10px; /*seguir*/
+    color:#666;
+
+    
+}
+
 
 div.last-visit,
 div.offers{
